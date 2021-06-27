@@ -47,5 +47,20 @@ the computer at the moment.
 
 ---
 
+|Small Feature|
+|---|
+- Another small feature i've added is that the colour of the file you hover your mouse across, turns red.
 
+![Screenshot (154)](https://user-images.githubusercontent.com/81378094/123542942-94457b80-d74c-11eb-8221-53a6d43aa7ae.png)
 
+---
+
+|Download|
+|---|
+- A Progress Bar pops up if you pressed the **download button** on any one of the processed files.
+- It's just a nice added little feature to show the **end user** the progress of their existing download.
+> When you download an uploaded file, the binary data of that file get **DESERIALIZED** back into an object (which in this case is a file). 
+
+![Screenshot (155)](https://user-images.githubusercontent.com/81378094/123543132-6ca2e300-d74d-11eb-8a52-dc69bc6eab12.png)
+
+---
