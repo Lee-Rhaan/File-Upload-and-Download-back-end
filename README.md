@@ -19,7 +19,7 @@
 
 ---
 
-|Features:|
+|Uploading Features:|
 |---|
 - Supports Single + Multi-file uploads
 - Pressing the "Choose Files" button, takes you straight to the Home directory of the User that's Logged in on
@@ -37,3 +37,15 @@ the computer at the moment.
 ![Screenshot (152)](https://user-images.githubusercontent.com/81378094/123542364-8e9a6680-d749-11eb-9447-ec5f3c34a6ba.png)
 
 ---
+
+|Processed Files
+|---|
+- Your uploads gets highlighted in a green tab, with a download option.
+> I've used a **Blob** (Binary Large Object) to store the uploads "which could be in any multimedia or file type" as **binary data**.
+
+![Screenshot (153)](https://user-images.githubusercontent.com/81378094/123542567-973f6c80-d74a-11eb-89a2-e4d58ace2c4e.png)
+
+---
+
+
+
