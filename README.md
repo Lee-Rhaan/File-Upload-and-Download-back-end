@@ -59,8 +59,20 @@ the computer at the moment.
 |---|
 - A Progress Bar pops up if you pressed the **download button** on any one of the processed files.
 - It's just a nice added little feature to show the **end user** the progress of their existing download.
-> When you download an uploaded file, the binary data of that file get **DESERIALIZED** back into an object (which in this case is a file). 
+> When you download an uploaded file, the binary data of that file gets **DESERIALIZED** back into an object (which in this case is a file). 
 
 ![Screenshot (155)](https://user-images.githubusercontent.com/81378094/123543132-6ca2e300-d74d-11eb-8a52-dc69bc6eab12.png)
+
+---
+
+|Download Path|
+|---|
+- Your downloaded files gets stored in your **Downloads** folder.
+> If you look at the code in the back end, you'll tend to notice that the storage location of the downloaded files is in
+"/Downloads/uploads/" location.
+- So if you were to copy this code, then you'd just have to remove that uploads path, and change it to: "/Downloads/".
+- Or, you could leave the code as it is, and create a folder in your Downloads named "uploads".
+
+![Screenshot (157)](https://user-images.githubusercontent.com/81378094/123543889-fd2ef280-d750-11eb-8deb-8027fc405e02.png)
 
 ---
